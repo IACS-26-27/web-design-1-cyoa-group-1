@@ -1,5 +1,5 @@
 body {
-  width: 550px;
+  width: 1245px;
   margin-left: auto;
   margin-right: auto;
   color: black;
@@ -14,4 +14,13 @@ h1 {
   font-size: 48pt;
   font-weight: bold;
   color: brown;
+}
+.center-text {
+  text-align: center;
+  font-size: 30pt;
+}
+.spich {
+  color: rgb(148, 4, 4);
+  font-weight: bold;
+  font-size: 60pt;
 }
