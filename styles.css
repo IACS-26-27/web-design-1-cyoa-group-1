@@ -28,3 +28,8 @@ a:hover {
   font-size: 30pt;
   font-weight: bold;
 }
+img { 
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+}
