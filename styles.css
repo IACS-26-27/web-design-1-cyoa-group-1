@@ -1,9 +1,12 @@
 body {
-  width: 1245px;
+  width: 90%;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   color: black;
-  background-image: url("./Images/background.jpg");
+  background-image: url("./Images/SuperDuperspinach.png");
+  background-size: cover;
+  background-position: center;
   padding: 1em;
 }
 p {
@@ -28,8 +31,32 @@ a:hover {
   font-size: 30pt;
   font-weight: bold;
 }
-img { 
-    max-width: 100%;
-    max-height: 400px;
-    height: auto;
+.image-and-table {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.image-and-table img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+}
+
+.image-and-table table {
+  font-size: 28pt;
+  border-collapse: collapse;
+  padding: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+   padding: 20px;
+   font-size: 12pt;
 }
